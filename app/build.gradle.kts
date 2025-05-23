@@ -41,6 +41,8 @@ android {
 
 dependencies {
 
+    implementation (libs.mariuszgromada.mathparser.org.mxparser)
+
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     implementation(libs.androidx.core.ktx)
